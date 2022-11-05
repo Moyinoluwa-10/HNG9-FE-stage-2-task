@@ -56,13 +56,24 @@
 .contact .form-container input,
 .contact .form-container textarea {
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 24px;
     border: 1px solid #D0D5DD;
     border-radius: 8px;
     padding: 10px 14px;
     width: 100%;
+}
+
+.contact .form-container ::placeholder {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #667085;
+
 }
 
 .contact .form-container input:focus,
@@ -82,6 +93,14 @@
     margin-top: 3px;
 }
 
+.contact .form-container .group1 label {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #475467;
+}
+
 .contact .form-container button {
     width: 100%;
     padding: 12px 20px;
@@ -91,8 +110,40 @@
     outline: none;
     border: none;
     font-family: Inter, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 20px;
+    line-height: 24px;
     margin-bottom: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact .form-container button:hover {
+    color: #1570EF;
+    background: #FFFFFF;
+    border: 1px solid #1570EF;
+    padding: 11px 20px;
+}
+
+.contact .form-container button:active {
+    transform: scale(0.98);
+}
+
+
+/* RESPONSIVENESS */
+@media screen and (max-width: 768px) {
+    .contact .form-container p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .contact .form-container .form .form-box {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0px;
+    }
 }
