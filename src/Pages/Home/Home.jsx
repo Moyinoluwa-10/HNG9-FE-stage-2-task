@@ -59,6 +59,7 @@ const Home = () => {
             Link={"https://books.zuri.team/design-rules"}
             Text={"Design Books"}
           />
+          <LinkBox idName={"contact"} Link={"/contact"} Text={"Contact Me"} />
         </section>
       </div>
       <div className="socials">
