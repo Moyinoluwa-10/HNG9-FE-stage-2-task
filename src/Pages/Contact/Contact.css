@@ -65,6 +65,11 @@
     width: 100%;
 }
 
+.contact .form-container input:focus,
+.contact .form-container textarea:focus {
+    outline: none;
+}
+
 .contact .form-container .group1 {
     display: flex;
     align-items: flex-start;
