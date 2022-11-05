@@ -79,7 +79,7 @@ const Contact = () => {
                   name="message"
                   id="message"
                   type="text"
-                  placeholder="Send me a message and I'll reply you as soon as possible"
+                  placeholder="Send me a message and I'll reply you as soon as possible..."
                   required
                   cols="30"
                   rows="10"
