@@ -16,18 +16,18 @@ const Contact = () => {
             <form className="form">
               <div className="form-box">
                 <div className="form-group">
-                  <label htmlFor="">First name</label>
+                  <label htmlFor="first_name">First name</label>
                   <input
-                    id="firstname"
+                    id="first_name"
                     type="text"
                     placeholder="Enter your first name"
                     required
                   />
                 </div>
                 <div className="form-group">
-                  <label htmlFor="lastname">Last name</label>
+                  <label htmlFor="last_name">Last name</label>
                   <input
-                    id="lastname"
+                    id="last_name"
                     type="text"
                     placeholder="Enter your last name"
                     required
@@ -37,7 +37,7 @@ const Contact = () => {
               <div className="form-group">
                 <label htmlFor="email">Email</label>
                 <input
-                  id="firstname"
+                  id="email"
                   type="email"
                   placeholder="yourname@email.com"
                   required
@@ -61,7 +61,9 @@ const Contact = () => {
                 </label>
               </div>
               <div className="button-group">
-                <button type="submit">Send message</button>
+                <button type="submit" id="btn__submit">
+                  Send message
+                </button>
               </div>
             </form>
           </div>
